@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "f7783b25-9a07-476a-b894-87521c326feb",
+		"name": "DockerLambda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "local docker invocation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/2015-03-31/functions/function/invocations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"2015-03-31",
+						"functions",
+						"function",
+						"invocations"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
